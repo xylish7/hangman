@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import "./theme.css";
+
+body {
+  font-family: "Roboto";
+  background-color: var(--bg-color, #212121);
+  color: var(--color, #ffffff);
+}
+
+.root {
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: #00d1b2;
+  margin-bottom: 64px;
+}

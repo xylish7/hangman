@@ -1,0 +1,34 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.word-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: #00d1b2;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+}
+
+.lives-container {
+  margin-top: 24px;
+}
+
+.keyboard-container {
+  position: fixed;
+  bottom: 0;
+}

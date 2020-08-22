@@ -1,0 +1,38 @@
+.root {
+  width: 100vw;
+  max-width: 500px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.letter {
+  flex-grow: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #424242;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+  width: 30px;
+  margin: 1px;
+}
+
+.letter:enabled:hover {
+  cursor: pointer;
+  background-color: #666666;
+}
+
+.letter:enabled:active {
+  font-size: 10px;
+}
+
+.good {
+  color: #00d1b2;
+}
+
+.bad {
+  color: #ff3860;
+}

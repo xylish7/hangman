@@ -1,0 +1,9 @@
+.dark-theme {
+  --color: #ffffff;
+  --bg-color: #212121;
+}
+
+.light-theme {
+  --color: #000000;
+  --bg-color: #ffffff;
+}
