@@ -1,2 +1,3 @@
 # hangman
-Created with CodeSandbox
+
+Play it now: https://csb-cq4tl.netlify.app/ 🙂
